@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="fbs quiz" uploadOnCheckin="dc971802-e2c1-44a4-b45a-c9662b7667d6" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="FarBetterSystems Old Clubs">
         <serverdata>
@@ -17,5 +17,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="fbs quiz" />
   </component>
 </project>
