@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37613d34-5800-46ae-9522-184503f2bfe5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/EnglishWord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/SpanishWord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/quiz.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/words/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quiz.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,10 +143,13 @@
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nwB4UKvn9MRBhtpWtOuo3wNWBd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -147,13 +162,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v14.15.4/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -185,7 +205,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612291081910</updated>
       <workItem from="1612291082973" duration="7977000" />
-      <workItem from="1612386685160" duration="3184000" />
+      <workItem from="1612386685160" duration="3969000" />
+      <workItem from="1612399778551" duration="11752000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1612381195503</created>
@@ -194,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612381195503</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updates to config">
+      <created>1612398625782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612398625782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +232,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="updates to config" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates to config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="868" y="446" width="800" height="677" key="#Deployment" timestamp="1612381205087">
@@ -215,10 +244,14 @@
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
     <state x="847" y="433" width="832" height="704" key="#SSH_Configurations/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612381149274" />
-    <state x="816" y="351" width="905" height="867" key="CommitChangelistDialog2" timestamp="1612381195226">
+    <state x="3584" y="528" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612481832162">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3584" y="528" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612481832162" />
+    <state x="816" y="351" width="905" height="867" key="CommitChangelistDialog2" timestamp="1612398625642">
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
-    <state x="816" y="351" width="905" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612381195226" />
+    <state x="816" y="351" width="905" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612398625642" />
     <state x="1135" y="685" key="Github.ShareDialog" timestamp="1612380981000">
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
@@ -239,14 +272,22 @@
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
     <state width="2351" height="351" key="GridCell.Tab.0.right/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612386674756" />
+    <state x="3684" y="706" width="399" height="149" key="NewPhpFileDialog" timestamp="1612480839364">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3684" y="706" width="399" height="149" key="NewPhpFileDialog/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612480839364" />
     <state x="762" y="420" key="SettingsEditor" timestamp="1612381869238">
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
     <state x="762" y="420" key="SettingsEditor/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612381869238" />
-    <state x="868" y="521" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1612382126391">
+    <state x="868" y="521" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1612398628557">
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
-    <state x="868" y="521" width="800" height="528" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612382126391" />
+    <state x="868" y="521" width="800" height="528" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612398628557" />
+    <state x="3579" y="346" width="772" height="870" key="find.popup" timestamp="1612479237917">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3579" y="346" width="772" height="870" key="find.popup/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612479237917" />
     <state x="1078" y="697" width="495" height="203" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612381646344">
       <screen x="0" y="44" width="2560" height="1440" />
     </state>

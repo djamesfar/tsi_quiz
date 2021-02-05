@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WordController;
+use App\Http\Controllers\QuizController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,8 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
+Route::get('quiz', [QuizController::class, 'showQuiz'])->name('quiz');
+Route::get('addWords', [WordController::class, 'addWords'])->name('words.add');
+Route::get('words', [WordController::class, 'index'])->name('words.index');
+Route::post('words', [WordController::class, 'store'])->name('words.store');
 require __DIR__.'/auth.php';
