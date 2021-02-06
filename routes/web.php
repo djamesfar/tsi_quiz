@@ -20,7 +20,8 @@ Route::get('/', function () {
 });
 
 Route::get('quiz', [QuizController::class, 'showQuiz'])->name('quiz');
-Route::get('addWords', [WordController::class, 'addWords'])->name('words.add');
+Route::post('quiz', [QuizController::class, 'gradeQuiz'])->name('grade');
+Route::get('addWords', [WordController::class, 'addWords'])->name('addWords');
 Route::get('words', [WordController::class, 'index'])->name('words.index');
 Route::post('words', [WordController::class, 'store'])->name('words.store');
 require __DIR__.'/auth.php';

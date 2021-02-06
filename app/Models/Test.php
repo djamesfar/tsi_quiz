@@ -5,16 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class EnglishWord extends Model
+class Test extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'word', 'spanish_word_id'
+        'attempt',
+        'score',
     ];
 
-    public function meaning()
+    public function student()
     {
-        return $this->belongsTo(SpanishWord::class, 'spanish_word_id');
+        return $this->belongsTo(User::class);
     }
 }

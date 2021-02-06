@@ -47,7 +47,7 @@
                         <div class="ml-6" style="padding: 1rem 2rem">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                 The purpose of this quiz is to test your knowledge of Spanish vocabulary.  You will be presented with a Spanish word, and a list of English words, one of which is the correct translation.
-                                <br /><br />Please click the Register link above and you will be directed to the quiz.
+                                <br /><br />If you've registered, Login above to start.  If not, click the Register link above and you will be directed to the quiz.
                                 <br />Good luck!
                             </div>
                         </div>

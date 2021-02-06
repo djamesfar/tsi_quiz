@@ -1,4 +1,9 @@
-@extends('layouts.app')
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        {{ __('Add Words to Quiz') }}
+    </h2>
+    </x-slot>>
 @section('content')
     <div class="flash-message">
         @if(session('status'))
@@ -24,7 +29,7 @@
                 <div class="grid grid-cols-6 gap-6">
                     <div class="col-span-6 sm:col-span-3">
                         <label for="spanish_word" class="block text-sm font-medium text-gray-700">Spanish Word</label>
-                        <input type="text" name="spanish_word" id="spanish_word" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                        <input type="text" name="spanish_word" id="spanish_word" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" autofocus>
                     </div>
 
                     <div class="col-span-6 sm:col-span-3">
@@ -42,3 +47,4 @@
     </form>
 </div>
 @endsection
+    </x-app-layout>

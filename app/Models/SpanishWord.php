@@ -15,6 +15,6 @@ class SpanishWord extends Model
 
     public function meaning()
     {
-        return $this->belongsTo(EnglishWord::class);
+        return $this->belongsTo(EnglishWord::class, 'english_word_id');
     }
 }

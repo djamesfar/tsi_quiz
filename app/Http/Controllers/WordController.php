@@ -32,9 +32,8 @@ class WordController extends Controller
             'word' => $request->english_word,
         ]);
         // relate the words
-//        $english = $spanish->meaning()->create(['word'=>$request->english_word]);
-        $english->meaning()->associate($spanish);
-        $spanish->meaning()->associate($english);
+        $english->meaning()->associate($spanish)->save();
+        $spanish->meaning()->associate($english)->save();
         Flash::success("Word was added!");
         return back();
     }
