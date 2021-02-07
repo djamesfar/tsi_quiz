@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37613d34-5800-46ae-9522-184503f2bfe5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Answer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/show_grade.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/quiz.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,9 +185,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHP Web Page.addWords" />
       <item itemvalue="npm.dev" />
+      <item itemvalue="PHP Web Page.addWords" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -215,7 +206,7 @@
       <workItem from="1612291082973" duration="7977000" />
       <workItem from="1612386685160" duration="3969000" />
       <workItem from="1612399778551" duration="38759000" />
-      <workItem from="1612672226802" duration="8825000" />
+      <workItem from="1612672226802" duration="9766000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1612381195503</created>
@@ -245,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612621201975</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish controllers; grade quiz">
+      <created>1612730915550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612730915550</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +256,8 @@
     <MESSAGE value="updates to config" />
     <MESSAGE value="added models, routes, controllers, views" />
     <MESSAGE value="quiz controller; fix associations; test view" />
-    <option name="LAST_COMMIT_MESSAGE" value="quiz controller; fix associations; test view" />
+    <MESSAGE value="finish controllers; grade quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish controllers; grade quiz" />
   </component>
   <component name="WindowStateProjectService">
     <state x="868" y="446" width="800" height="677" key="#Deployment" timestamp="1612381205087">
@@ -281,11 +280,11 @@
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3584" y="528" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612481832162" />
-    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2" timestamp="1612621201827">
+    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2" timestamp="1612730915442">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="816" y="351" width="905" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612398625642" />
-    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612621201827" />
+    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612730915442" />
     <state x="1135" y="685" key="Github.ShareDialog" timestamp="1612380981000">
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
@@ -350,11 +349,11 @@
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
     <state x="762" y="420" key="SettingsEditor/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612381869238" />
-    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1612621204689">
+    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1612730919542">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="868" y="521" width="800" height="528" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612398628557" />
-    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612621204689" />
+    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612730919542" />
     <state x="3579" y="346" width="772" height="870" key="find.popup" timestamp="1612479237917">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
