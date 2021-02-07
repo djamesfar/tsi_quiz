@@ -12,10 +12,16 @@ class Test extends Model
     protected $fillable = [
         'attempt',
         'score',
+        'user_id'
     ];
 
     public function student()
     {
         return $this->belongsTo(User::class);
+    }
+
+    public function answers()
+    {
+        return $this->hasMany(Answer::class);
     }
 }

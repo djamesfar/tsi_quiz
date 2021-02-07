@@ -23,7 +23,6 @@ class WordController extends Controller
 
     public function store(Request $request)
     {
-        Log::info("request: ".var_export($request->input(), true));
         // Save words into tables
         $spanish = SpanishWord::create([
             'word' => $request->spanish_word,
@@ -35,6 +34,7 @@ class WordController extends Controller
         $english->meaning()->associate($spanish)->save();
         $spanish->meaning()->associate($english)->save();
         Flash::success("Word was added!");
+        // go back to continue adding words
         return back();
     }
 

@@ -19,8 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('quiz', [QuizController::class, 'showQuiz'])->name('quiz');
-Route::post('quiz', [QuizController::class, 'gradeQuiz'])->name('grade');
+Route::get('quiz/{test_id?}', [QuizController::class, 'showQuiz'])->name('quiz');
+Route::get('gradeQuiz/{test_id?}', [QuizController::class, 'gradeQuiz'])->name('grade');
+Route::post('storeAnswer', [QuizController::class, 'storeAnswer'])->name('storeAnswer');
 Route::get('addWords', [WordController::class, 'addWords'])->name('addWords');
 Route::get('words', [WordController::class, 'index'])->name('words.index');
 Route::post('words', [WordController::class, 'store'])->name('words.store');
