@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37613d34-5800-46ae-9522-184503f2bfe5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +206,7 @@
       <workItem from="1612291082973" duration="7977000" />
       <workItem from="1612386685160" duration="3969000" />
       <workItem from="1612399778551" duration="38759000" />
-      <workItem from="1612672226802" duration="9766000" />
+      <workItem from="1612672226802" duration="11652000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1612381195503</created>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612730915550</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update README.md">
+      <created>1612731623467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612731623467</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +264,8 @@
     <MESSAGE value="added models, routes, controllers, views" />
     <MESSAGE value="quiz controller; fix associations; test view" />
     <MESSAGE value="finish controllers; grade quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish controllers; grade quiz" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="868" y="446" width="800" height="677" key="#Deployment" timestamp="1612381205087">
@@ -280,11 +288,11 @@
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3584" y="528" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612481832162" />
-    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2" timestamp="1612730915442">
+    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2" timestamp="1612731623399">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="816" y="351" width="905" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612398625642" />
-    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612730915442" />
+    <state x="3376" y="307" width="860" height="867" key="CommitChangelistDialog2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612731623399" />
     <state x="1135" y="685" key="Github.ShareDialog" timestamp="1612380981000">
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
@@ -349,11 +357,11 @@
       <screen x="0" y="44" width="2560" height="1440" />
     </state>
     <state x="762" y="420" key="SettingsEditor/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612381869238" />
-    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1612730919542">
+    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1612731625105">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="868" y="521" width="800" height="528" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@0.44.2560.1440" timestamp="1612398628557" />
-    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612730919542" />
+    <state x="3428" y="477" width="800" height="556" key="Vcs.Push.Dialog.v2/2560.0.2560.1440/5120.0.1920.1080/0.44.2560.1440@2560.0.2560.1440" timestamp="1612731625105" />
     <state x="3579" y="346" width="772" height="870" key="find.popup" timestamp="1612479237917">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
